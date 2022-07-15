@@ -1,6 +1,20 @@
 from binary_tree import *
 from binary_tree_node import *
 
+"""
+Solution 1 from educative 
+We print the perimeter of the binary tree in three phases, the left boundary, leaf nodes, and the right boundary. 
+The left and right boundaries will be printed iteratively while the leaf nodes will be printed recursively. Here 
+is how the algorithm looks:
+    - Print the root node
+    - Print the left boundary in top-down order.
+    - Print the leaf nodes in leaf-right order. We'll be traversing from one leaf node to the next using post-
+    order traversal
+    - Print the right boundary in bottom-up order
+        - We push the node values in a stack here.
+        - Once we hit the leaf node, we pop all stack elements while printing them.
+"""
+
 def print_left_perimeter(root,result):
     while root:
         # store integer of node in each iteration
@@ -112,3 +126,14 @@ def main():
         display_tree_perimeter(test_case_roots[i])
         print("\n----------------------------------------------------------------------------------------------------")
 main()
+
+
+"""
+Time Complexity
+    The Time complexity of this solution is linear, O(N)
+Space Complexity
+    The space complexity of this iterative solution is O(H) because the recursive algorithm for printing leaf nodes
+    uses up space on the call stack up to the height, h, of the binary tree. Similiary, the algorithm for printing
+    the right perimeter uses a stack that will contain at most h node. The complexity will be O(LogN) for a 
+    balanced tree and O(N) for a degenerate tree.
+"""
