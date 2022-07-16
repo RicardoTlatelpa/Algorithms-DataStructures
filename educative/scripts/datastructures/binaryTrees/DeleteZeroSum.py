@@ -12,44 +12,10 @@ we delete all the children and then the root of the subtree node
 
 deleting the sub tree, I can take advantage of the deletion in a binary tree and delete 
 """
+from binary_tree import *
+from binary_tree_node import *
 
-
-# Check for sum of zero
-def delete_zero_helper(root):
-    stack = []
-    i_stack = []
-    current = root
-    sumtree = 0
-    while current or stack:
-        if current:
-            stack.append(current)
-            current = current.left
-        p = stack.pop()
-        if p.right:
-            current = p.right
-        sumtree += p.data
-        i_stack.append(p) # every node in the sub tree
-    if sumtree == 0:
-        # delete every node in the sub tree and delete
-        for i in range(len(i_stack)):
-            node_to_delete = i_stack[i]
-            # set every child pointer to null
-            if node_to_delete.left:
-                node_to_delete.left = None
-            if node_to_delete.right:
-                node_to_delete.right = None
-            # set the node itself to null            
-        return True
-    else:        
-        return False
-
-def delete_zero_sum_subtree(tree):
-    if tree == None:
+def delete_zero_sub_subtree(tree):
+    if not tree or not tree.root:
         return
-    if delete_zero_helper(tree):     
-        tree = None   
-        return
-    delete_zero_sum_subtree(tree.left)
-    delete_zero_sum_subtree(tree.right)
     
-
