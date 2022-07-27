@@ -25,7 +25,7 @@ def bfs_traversal_helper(g, source, visited):
     # and enqueue source in it
     queue = MyQueue()
     queue.enqueue(source)
-    visited[source] == True # Mark as visited
+    visited[source] = True # Mark as visited
 
     while not queue.is_empty():
         # Dequeue a vertex/node from queue and add it to result
