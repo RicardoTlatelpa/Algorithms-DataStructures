@@ -29,3 +29,22 @@ def detect_cycle_rec(g,node,visited,rec_node_stack):
     # remove the node from the recursive call
     rec_node_stack[node] = False
     return False
+
+"""
+So basically we visit every vertex and call a helper function on it
+the vertex gets marked as visited, and its respective reucrsive node stack gets marked as visited too until
+its edges are visited, then the recursive_node_stack marks the source back to false.
+
+At this point, every edge has been visited and the recursive stack marks the source as false, and marks
+every edge that was visited as false
+
+On every source of the graph, its edges are visited in the helper function, and those children are called recursively on
+to check if they have been visited before. 
+If they have then there is no point in visiting them
+if they are marked as true on the recursive node stack, then a cycle has been found, the call stack collapses(pops off) 
+and returns true
+
+We are basically just visiting every vertex and its edges recursively, and using another visited list, to see if we find
+any self loops starting from the source
+
+"""
