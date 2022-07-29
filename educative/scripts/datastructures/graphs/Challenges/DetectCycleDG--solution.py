@@ -47,6 +47,7 @@ and returns true
 We are basically just visiting every vertex and its edges recursively, and using another visited list, to see if we find
 any self loops starting from the source
 
+Analyzing this algorithm(detect cycle undirected graph): https://www.techiedelight.com/check-undirected-graph-contains-cycle-not/
 >>Adjacency List of Undirected Graph g1<<
 | 0 | => [ 3 ] -> [ 2 ] -> [ 1 ] -> None
 | 1 | => [ 0 ] -> None
