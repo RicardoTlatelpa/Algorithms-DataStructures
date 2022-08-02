@@ -22,12 +22,24 @@ Solution
 
     Let's take an example graph and find its minimum spanning tree using the above algorithm:
 """
+class Edge:
+    def __init__(self, weight, visited, src, dest):
+        self.weight = weight
+        self.visited = visited
+        self.src = src
+        self.dest = dest
 
+class Vertex:
+    def __init__(self, id, visited):
+        self.id = id
+        self.visited = visited
 
 def find_min_spanning_tree(graph):
     graphMST = Graph([],[])
 
     vertex_count = 0
+
+    
     current = graph.g[0]
     current.visited = True
     vertex_count += 1
@@ -49,5 +61,5 @@ def find_min_spanning_tree(graph):
         # Construct the remaining MST using the smallest weight edge
         # populate the edges of mst
         if smallest:
-            graphMST.e.append(Edge(smallest,weight,smallest,visited,smallest.src, smallest.dest))
+            graphMST.e.append(Edge(smallest.weight,smallest.visited,smallest.src, smallest.dest))
     return graphMST
