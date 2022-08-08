@@ -20,3 +20,12 @@ class vertexChain:
         self.visited = visited
         self.adj_vertices = []
         self.in_vertices = []
+
+
+class graphChain:
+    def __init__(self,g):
+        self.g = g
+    def can_chain_words(self,list_size):
+        # TODO: Write - Your Code
+        return False
+        
