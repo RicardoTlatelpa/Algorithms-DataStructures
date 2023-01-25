@@ -5,6 +5,7 @@ copy[::]
 
 
 def subsets_with_duplicates(nums):
+    nums.sort()
     answers = []
     subset = []
     def backtrack(i, subset):
