@@ -1,0 +1,122 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Solution	3sum.py	/^class Solution:$/;"	c
+Solution	binarySearch.py	/^class Solution:$/;"	c
+Solution	carFleet.py	/^class Solution:$/;"	c
+Solution	combinationSum.py	/^class Solution(object):$/;"	c
+Solution	combinationSum2_solution.py	/^class Solution:$/;"	c
+Solution	containerWithMostWater.py	/^class Solution:$/;"	c
+Solution	groupAnagrams.py	/^class Solution:$/;"	c
+Solution	isPalindrome.py	/^class Solution(object):$/;"	c
+Solution	isPalindromeSol.py	/^class Solution(object):$/;"	c
+Solution	koko.py	/^class Solution:$/;"	c
+Solution	longestConsecutiveSequence.py	/^class Solution(object):$/;"	c
+Solution	palindrome_partitioning.py	/^class Solution:$/;"	c
+Solution	permutations.py	/^class Solution(object):$/;"	c
+Solution	phoneNumberCombinations.py	/^class Solution(object):$/;"	c
+Solution	productOfArray.py	/^class Solution:$/;"	c
+Solution	search2D.py	/^class Solution:$/;"	c
+Solution	searchRotatedSortList.py	/^class Solution:$/;"	c
+Solution	subsets.py	/^class Solution(object):$/;"	c
+Solution	top_k_frequent.py	/^class Solution:$/;"	c
+Solution	validSoduku.py	/^class Solution(object):$/;"	c
+Solution	word_search_solution.py	/^class Solution:$/;"	c
+Solution2	isPalindromeSol.py	/^class Solution2(object):$/;"	c
+absolute_value	binarySearch/minPairs.cpp	/^int absolute_value(int n){$/;"	f
+backtrack	subsets_2.py	/^    def backtrack(i, subset):$/;"	f	function:subsets_with_duplicates
+canPlaceBirds	binarySearch/angryBirds.cpp	/^bool canPlaceBirds(int B, int N, vector<int> nests, int sep){$/;"	f
+carFleet	carFleet.py	/^    def carFleet(target, position, speed):$/;"	m	class:Solution
+combinationSum	combinationSum.py	/^    def combinationSum(self, candidates,target):$/;"	m	class:Solution
+combinationSum	combinationSum2_solution.py	/^    def combinationSum(self,candidates,target):$/;"	m	class:Solution
+compare	sortingSearching/smallestString.cpp	/^bool compare(string x, string y)$/;"	f
+countMinSwaps	arraysVectors/min_swap_sol.cpp	/^int countMinSwaps(vector<int> arr)$/;"	f
+dfs	palindrome_partitioning.py	/^        def dfs(i):$/;"	f	function:Solution.partition
+dfs	word_search_solution.py	/^        def dfs(r,c,i):$/;"	f	function:Solution.word_search
+divideAmongK	binarySearch/gameOfGreed.cpp	/^bool divideAmongK(int arr[], int n, int k, int min_coins)$/;"	f
+exist	word_search.py	/^def exist(board,word):$/;"	f
+findMinPair	binarySearch/minPairs.cpp	/^pair<int,int> findMinPair(vector<int> a1, vector<int> a2){$/;"	f
+find_captured_water	arraysVectors/rain.cpp	/^int find_captured_water(vector<int> heights){$/;"	f
+find_subsets	subsets.py	/^    def find_subsets(self, nums, lst, i, j):$/;"	m	class:Solution
+find_subsets	subsets_solution.py	/^def find_subsets(nums, generation, answer, i):$/;"	f
+find_word	word_search.py	/^def find_word(board,word,i,j,char):$/;"	f
+groupAnagrams	groupAnagrams.py	/^    def groupAnagrams(self,strs):$/;"	m	class:Solution
+highest_mountain	arraysVectors/mountain.cpp	/^int highest_mountain(vector<int> a){$/;"	f
+housing	slidingWindow/housing.cpp	/^vector<pair<int,int>> housing(vector<int> plots_of_land, int k)$/;"	f
+housing	slidingWindow/housing_solution.cpp	/^void housing(int *arr, int n, int k)$/;"	f
+isPali	palindrome_partitioning.py	/^    def isPali(self,s,l,r):$/;"	m	class:Solution
+isPalindrome	isPalindrome.py	/^    def isPalindrome(self, s):$/;"	m	class:Solution
+isPalindrome	isPalindromeSol.py	/^    def isPalindrome(self, s):$/;"	m	class:Solution
+isPalindrome	isPalindromeSol.py	/^    def isPalindrome(self, s):$/;"	m	class:Solution2
+isValidSudoku	validSoduku.py	/^    def isValidSudoku(self, board):$/;"	m	class:Solution
+isalpha	isPalindromeSol.py	/^    def isalpha(self, char):$/;"	m	class:Solution
+isalpha	isPalindromeSol.py	/^    def isalpha(self, char):$/;"	m	class:Solution2
+k_partition	binarySearch/gameOfGreed.cpp	/^int k_partition(int *arr, int n, int k)$/;"	f
+letterCombinations	phoneNumberCombinations.py	/^    def letterCombinations(self, digits):$/;"	m	class:Solution
+longestChain	arraysVectors/longestBand.cpp	/^int longestChain(vector<int> arr){$/;"	f
+longestConsecutive	longestConsecutiveSequence.py	/^    def longestConsecutive(self, nums):$/;"	m	class:Solution
+lower_bound	binarySearch/freqCount.cpp	/^int lower_bound(vector<int> arr, int key){$/;"	f
+lst	3sum.py	/^lst = [2,2,2,0,0,0,-1,-1]$/;"	v
+lst	subsets.py	/^lst = [1,2,3]$/;"	v
+lst	subsets_solution.py	/^lst = [1,2,3]$/;"	v
+main	arraysVectors/Triplets.cpp	/^int main()$/;"	f
+main	arraysVectors/longestBand.cpp	/^int main()$/;"	f
+main	arraysVectors/min_swap_sol.cpp	/^int main()$/;"	f
+main	arraysVectors/mountain.cpp	/^int main()$/;"	f
+main	arraysVectors/rain.cpp	/^int main(){$/;"	f
+main	arraysVectors/subarraysort.cpp	/^int main(){$/;"	f
+main	arraysVectors/subarraysort_SOL.cpp	/^int main()$/;"	f
+main	binarySearch/angryBirds.cpp	/^int main(){$/;"	f
+main	binarySearch/freqCount.cpp	/^int main()$/;"	f
+main	binarySearch/gameOfGreed.cpp	/^int main()$/;"	f
+main	binarySearch/minPair_solution.cpp	/^int main(){$/;"	f
+main	binarySearch/minPairs.cpp	/^int main(){$/;"	f
+main	binarySearch/rotatedSearch.cpp	/^int main()$/;"	f
+main	binarySearch/squareRoots.cpp	/^int main()$/;"	f
+main	slidingWindow/housing.cpp	/^int main()$/;"	f
+main	slidingWindow/housing_solution.cpp	/^int main(){    $/;"	f
+main	slidingWindow/stringWindow.cpp	/^int main(){$/;"	f
+main	slidingWindow/unique_substring.cpp	/^int main()$/;"	f
+main	sortingSearching/smallestString.cpp	/^int main()$/;"	f
+main	sortingSearching/spaseSearch.cpp	/^int main()$/;"	f
+main	stringProblems/helloWorld.cpp	/^int main()$/;"	f
+main	stringWindow_solution.cpp	/^int main(){$/;"	f
+math	koko.py	/^import math$/;"	i
+maxArea	containerWithMostWater.py	/^    def maxArea(self, height):$/;"	m	class:Solution
+maxArea_optimized	containerWithMostWater.py	/^    def maxArea_optimized(self,height):$/;"	m	class:Solution
+minEatingSpeed	koko.py	/^    def minEatingSpeed(self, piles, h):$/;"	m	class:Solution
+min_pair	binarySearch/minPair_solution.cpp	/^void min_pair(vector<int> a1, vector<int> a2)$/;"	f
+my	3sum.py	/^my = Solution()$/;"	v
+my	isPalindromeSol.py	/^my = Solution()$/;"	v
+my	palindrome_partitioning.py	/^my = Solution()$/;"	v
+my	phoneNumberCombinations.py	/^my = Solution('');/;"	v
+mySolution	permutations.py	/^mySolution = Solution()$/;"	v
+mySolution	subsets.py	/^mySolution = Solution()$/;"	v
+neetCodeSolution	longestConsecutiveSequence.py	/^    def neetCodeSolution(self,nums):$/;"	m	class:Solution
+outOfOrder	arraysVectors/subarraysort_SOL.cpp	/^bool outOfOrder(vector<int> array, int i){$/;"	f
+partition	palindrome_partitioning.py	/^    def partition(self, s):$/;"	m	class:Solution
+permute	permutations.py	/^    def permute(self, nums):$/;"	m	class:Solution
+productExceptSelf	productOfArray.py	/^    def productExceptSelf(self,nums):$/;"	m	class:Solution
+rotated_search	binarySearch/rotatedSearch.cpp	/^int rotated_search(vector<int> a, int key) {$/;"	f
+search	binarySearch.py	/^    def search(self, nums: List[int], target: int) -> int:$/;"	m	class:Solution
+search	searchRotatedSortList.py	/^    def search(self, nums, target):$/;"	m	class:Solution
+searchMatrix	search2D.py	/^    def searchMatrix(self, matrix, target):$/;"	m	class:Solution
+solution	arraysVectors/subarraysort.cpp	/^void solution(vector<int> input)$/;"	f
+sparseSearch	sortingSearching/spaseSearch.cpp	/^int sparseSearch(vector<string> ip, int s, int e, string key){    $/;"	f
+square_root	binarySearch/squareRoots.cpp	/^float square_root(int N, int P)$/;"	f
+stringWindow	stringWindow_solution.cpp	/^string stringWindow(string s, string p){$/;"	f
+string_window	slidingWindow/stringWindow.cpp	/^string string_window(string s1, string s2){$/;"	f
+subarraySort	arraysVectors/subarraysort_SOL.cpp	/^pair<int,int> subarraySort(vector<int> a){$/;"	f
+subsets	subsets.py	/^    def subsets(self, nums):$/;"	m	class:Solution
+subsets	subsets_solution.py	/^def subsets(nums):$/;"	f
+subsets_with_duplicates	subsets_2.py	/^def subsets_with_duplicates(nums):$/;"	f
+threeSum	3sum.py	/^    def threeSum(self,nums):$/;"	m	class:Solution
+topKFrequent	top_k_frequent.py	/^    def topKFrequent(self, nums):$/;"	m	class:Solution
+twoSum	twoSum.py	/^def twoSum(nums, target):$/;"	f
+unique_substring	slidingWindow/unique_substring.cpp	/^string unique_substring(string s)$/;"	f
+unique_substring	slidingWindow/unique_substring_solution.cpp	/^string unique_substring(string str){$/;"	f
+upper_bound	binarySearch/freqCount.cpp	/^int upper_bound(vector<int> arr, int key){$/;"	f
+word_search	word_search_solution.py	/^    def word_search(self, board, word):$/;"	m	class:Solution
