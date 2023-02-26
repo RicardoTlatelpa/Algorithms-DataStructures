@@ -11,10 +11,10 @@ Output: a pair of continguous indices telling us what subarray of the input
 area would sum to the amount of land we want
 */
 
-vector<pair<int,int>> housing(vector<int> plots_of_land, int k)
+vector< pair<int,int> > housing(vector<int> plots_of_land, int k)
 {
-    vector<pair<int,int>> results;
-sda:    int i = 0;
+    vector<pair <int,int> > results;
+    int i = 0;
     int j = 1;
     int sum = plots_of_land[0];
     while(j < plots_of_land.size() && i < j){

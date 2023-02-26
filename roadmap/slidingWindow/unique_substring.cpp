@@ -12,10 +12,10 @@ largest substring with unique characters
 string unique_substring(string s)
 {
     string largest_substring = "";
-    int i = 0;
     int j = 0;
     string current_substring = "";
     map<char,int> dictionary;
+    int i = 0;
     while(j < s.size()){               
         if(dictionary.count(s[j]) == 1){            
             if(current_substring.size() > largest_substring.size()){
@@ -29,8 +29,6 @@ string unique_substring(string s)
         current_substring += s[j];
         j++; 
     }
-
-
     return largest_substring;
 }
 
