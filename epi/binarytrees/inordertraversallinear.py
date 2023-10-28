@@ -20,13 +20,19 @@ def inorder_traversal(root):
     
     stack = []
 
-    while(stack and node):
+    while(True):
+        if len(stack) == 0 and node == None:
+            break
         if node:
+            # exhaust left by traversing to the left
             stack.append(node)
             node = node.left
         else:
+            # pop from stack because node is None
+            # read inorder value
+            # traverse to the right
             node = stack.pop()
-            ans.append(node.val) 
-            if node:
-                stack.append(node.right)
-            
+            ans.append(node.val)
+            node = node.right
+
+    return ans 
