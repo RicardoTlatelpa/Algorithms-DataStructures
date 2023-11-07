@@ -4,7 +4,7 @@
 
 # in the odd case, it's the middle element
 # in the even case, it's the middle element idx + middle element idx + 1 / 2 
-
+import heapq
 def compute_median(sequence):
     ans = []
     median_array = [] # maintain a sort
@@ -22,3 +22,14 @@ def compute_median(sequence):
 
 
 print(compute_median([1,0,3,5,2,0,1]))
+
+# slow as fuck O(N^2)
+
+def online_median(sequence):
+    min_heap,max_heap,result = [],[],[]
+    for x in sequence:
+        heapq.heappush(max_heap, -heapq.heappushpop(min_heap,x))
+        if len(max_heap) > len(min_heap):
+            heapq.heappush(min_heap,-heapq.heappop(max_heap))
+        result.append(0.5 * (min_heap[0] + (-max_heap[0])))
+    return result
