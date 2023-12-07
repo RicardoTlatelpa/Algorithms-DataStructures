@@ -34,3 +34,20 @@ def next_permutation(perm):
             return_idx = (i+1)%len(all_permutations)
             return all_permutations[return_idx]
 print(next_permutation(["1","2","3"]))
+
+def next_permutation_solution(perm):
+    inversion_point = len(perm-2)
+    while(inversion_point >= 0 and perm[inversion_point] >= perm[inversion_point+1]):
+        inversion_point-=1
+    if inversion_point == -1:
+        return []
+    for i in reversed(range(inversion_point+1,len(perm))):
+        if perm[i] > perm[inversion_point]:
+            perm[inversion_point],perm[i] = perm[i],perm[inversion_point]
+            break
+    perm[inversion_point+1:] = reversed(perm[inversion_point+1:])
+    return perm
+'''
+Time complexity: O(N)
+space complexity: O(1)
+'''
