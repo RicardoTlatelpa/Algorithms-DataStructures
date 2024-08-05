@@ -1,5 +1,5 @@
 import unittest
-from heaps.sortedFiles.mergedsortedfiles import Solution
+from mergedsortedfiles import Solution
 
 class TestMergeSortedFiles(unittest.TestCase):
     
